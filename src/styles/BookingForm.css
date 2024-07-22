@@ -1,0 +1,39 @@
+.booking-form {
+  background-color: #F5F5F5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.booking-form h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.booking-form .form-check-label {
+  font-size: 14px;
+}
+
+.booking-form .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.booking-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+}
+
+h2 {
+  text-decoration: underline;
+}

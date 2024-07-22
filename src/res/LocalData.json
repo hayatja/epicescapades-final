@@ -1,0 +1,155 @@
+{
+  "homeFeatured": [
+    {
+      "id": "topDestinations",
+      "isRatings": false,
+      "packages": ["volcanic-1", "forest-1", "ancient-1"]
+    },
+    {
+      "id": "featuredAdventures",
+      "isRatings": false,
+      "packages": ["volcanic-2", "ocean-1", "city-1"]
+    },
+    {
+      "id": "whatOurAdventurersSay",
+      "isRatings": true,
+      "packages": ["volcanicVoyage", "oceanOasis", "ancientAdventures"]
+    }
+  ],
+  "categories": [
+    "forestFantasy",
+    "volcanicVoyage",
+    "oceanOasis",
+    "cityCampaign",
+    "ancientAdventures"
+  ],
+  "packages": [
+    {
+      "id": "forest-1",
+      "category": "forestFantasy",
+      "price": 100,
+      "level": 1,
+      "review": 2,
+      "title": "Explore the Amazon",
+      "subtitle": "Guided Jungle Expedition!",
+      "description": "Embark on an unforgettable sunset safari through the vast plains of the Serengeti. Witness the majestic wildlife in their natural habitat as the golden sun dips below the horizon, casting a warm glow over the savannah. This once-in-a-lifetime experience promises close encounters with lions, elephants, and giraffes, all while surrounded by the breathtaking beauty of one of Africa's most iconic landscapes."
+    },
+
+    {
+      "id": "volcanic-1",
+      "category": "volcanicVoyage",
+      "price": 100,
+      "level": 2,
+      "review": 5,
+      "title": "Hike the Himalayas",
+      "subtitle": "10-Day Trekking Experience!",
+      "description": "Experience the breathtaking beauty of the Swiss Alps on a scenic train journey that winds through towering peaks and picturesque valleys. Sit back and relax in luxurious comfort as you pass by charming villages, crystal-clear lakes, and snow-capped mountains. This journey offers unparalleled views and a serene escape into the heart of Switzerland's stunning natural landscapes."
+    },
+    {
+      "id": "volcanic-2",
+      "category": "volcanicVoyage",
+      "price": 100,
+      "level": 1,
+      "review": 3,
+      "title": "Conquer the Peaks",
+      "subtitle": "Mountain Adventures Await!!",
+      "description": "Experience the breathtaking beauty of the Swiss Alps on a scenic train journey that winds through towering peaks and picturesque valleys. Sit back and relax in luxurious comfort as you pass by charming villages, crystal-clear lakes, and snow-capped mountains. This journey offers unparalleled views and a serene escape into the heart of Switzerland's stunning natural landscapes."
+    },
+
+    {
+      "id": "ocean-1",
+      "category": "oceanOasis",
+      "price": 100,
+      "level": 3,
+      "review": 4,
+      "title": "Dive Deep",
+      "subtitle": "Scuba Diving in Exotic Locations!",
+      "description": "Step into a world of ancient tradition and serene beauty with a cultural exploration of Kyoto's historic temples. Wander through tranquil gardens, marvel at the intricate architecture, and partake in traditional tea ceremonies. From the iconic Golden Pavilion to the serene Ryoan-ji rock garden, each temple offers a unique glimpse into Japan's rich cultural heritage and spiritual history."
+    },
+
+    {
+      "id": "city-1",
+      "category": "cityCampaign",
+      "price": 100,
+      "level": 1,
+      "review": 4,
+      "title": "City Lights",
+      "subtitle": "Discover Vibrant Urban Escapes!",
+      "description": "Experience the breathtaking beauty of the Swiss Alps on a scenic train journey that winds through towering peaks and picturesque valleys. Sit back and relax in luxurious comfort as you pass by charming villages, crystal-clear lakes, and snow-capped mountains. This journey offers unparalleled views and a serene escape into the heart of Switzerland's stunning natural landscapes."
+    },
+
+    {
+      "id": "ancient-1",
+      "category": "ancientAdventures",
+      "price": 100,
+      "level": 2,
+      "review": 2,
+      "title": "Cultural Wonders",
+      "subtitle": "Discover Ancient Civilizations!",
+      "description": "Embark on an adventure of a lifetime with a trekking expedition through the rugged wilderness of Patagonia. Hike through dramatic landscapes of towering glaciers, pristine lakes, and dense forests. Challenge yourself with exhilarating climbs and be rewarded with panoramic views of the Andes Mountains. This journey promises an unforgettable experience for outdoor enthusiasts and nature lovers alike."
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Into the Wild: Forest Expeditions",
+      "author": "Emily Green",
+      "text": "The wilds are crazy!..."
+    },
+    {
+      "id": 2,
+      "title": "Green Escapes: Unleashing Your Inner Explorer in the Forests",
+      "author": "Michael Wood",
+      "text": "I love the color green, AND I LOVE GREEN NATURE..."
+    },
+    {
+      "id": 3,
+      "title": "Mysteries of the Jungle: A Journey Through Nature's Secrets",
+      "author": "John Pine",
+      "text": "Call me sherlock holmes of the jungle..."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-1",
+      "package_id": "volcanic-1",
+      "title": "test",
+      "description": "sub-test"
+    },
+    {
+      "id": "review-2",
+      "package_id": "forest-1",
+      "title": "test",
+      "subtitle": "sub-test"
+    },
+    {
+      "id": "review-2",
+      "package_id": "TODO",
+      "title": "EpicEscapades Saved My Life! (Not Fake) (Not Clickbait)",
+      "subtitle": "I was strolling down through the streets of Ottawa on a lazy Friday afternoon, bored, and I realized I had NO IDEA what to do!!! I was completely lost, emotionally speaking. That is when I opened EpicEscapades. Their selection of adventures were just amazing to even read and browse, and when I embarked on one myself, I discovered a passion for travel I never knew I possessed! Have the rest of you had this sort incredible life change?"
+    },
+    {
+      "id": "review-2",
+      "package_id": "TODO",
+      "title": "test",
+      "subtitle": "sub-test"
+    }
+  ],
+  "communityPosts": [
+    {
+      "title": "EpicEscapades Saved My Life! (Not Fake) (Not Clickbait)",
+      "description": "I was strolling down through the streets of Ottawa on a lazy Friday afternoon, bored, and I realized I had NO IDEA what to do!!! I was completely lost, emotionally speaking. That is when I opened EpicEscapades. Their selection of adventures were just amazing to even read and browse, and when I embarked on one myself, I discovered a passion for travel I never knew I possessed! Have the rest of you had this sort incredible life change?",
+      "replies": 17
+    },
+    {
+      "title": "the scuba dive adventure is a must !!!!",
+      "description": "Adipiscing at in tellus integer feugiat scelerisque varius. Sed faucibus turpis in eu mi. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Adipiscing elit pellentesque habitant morbi tristique senectus. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Interdum velit laoreet id donec. Mollis aliquam ut porttitor leo a diam. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Massa sed elementum...",
+      "replies": 6
+    },
+    {
+      "title": "I booked a trip in my own city through EpicEscapades and it blew my mind!!",
+      "description": "Dictum sit amet justo donec. Arcu cursus vitae congue mauris rhoncus aenean. Quis imperdiet massa tincidunt nunc pulvinar sapien. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. In hac habitasse platea dictumst vestibulum rhoncus est. Urna et pharetra pharetra massa massa ultricies. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Sit amet nisl purus in. Tristique senectus et netus et malesuada...",
+      "replies": 11
+    }
+  ]
+}

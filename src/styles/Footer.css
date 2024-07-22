@@ -1,0 +1,31 @@
+.custom-footer {
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  margin-inline: 50px;
+  margin-block: 40px;
+  padding: 10px;
+}
+
+.custom-footer p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.custom-footer img {
+  height: 50px;
+  margin-bottom: 10px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%) !important;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+}
+
+.foot-links {
+  color: white !important;
+}

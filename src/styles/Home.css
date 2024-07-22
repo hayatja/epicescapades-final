@@ -1,0 +1,58 @@
+.home-container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.subtext-container {
+  background-color: #222;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adventure-button {
+  background-color: #054840;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  font-size: 1.5em;
+  border-radius: 16px;
+  padding-inline: 20px;
+}
+
+.adventure-button:hover {
+  background-color: #033c2f;
+}
+
+h1 {
+  font-size: 4em;
+  color: #666;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 3px 3px 5px black;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.no-bg {
+  min-width: 100vw;
+  padding-inline: 50px;
+  padding-block: 30px;
+}
+
+.white-bg {
+  background-color: white;
+  padding-inline: 50px;
+  padding-block: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
