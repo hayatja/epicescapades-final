@@ -1,11 +1,13 @@
 import { Button, Container } from 'react-bootstrap';
 import BookingForm from './BookingForm';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Plan = ({ cart }) => {
   const location = useLocation();
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
   const { state } = location;
 
   if (!state) {
@@ -28,6 +30,8 @@ const Plan = ({ cart }) => {
 
   const addToCart = () => {
     cart.saved.push(state.id);
+    alert('Added to cart!');
+    navigate('/packages');
   };
 
   return (

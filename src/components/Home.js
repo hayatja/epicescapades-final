@@ -24,10 +24,6 @@ const Home = (props) => {
               <li>{t('there is no real login')}</li>
               <li>{t('the cart is updatable')}</li>
             </ul>
-            <hr />
-            <p className='mb-0'>
-              {t('all ui components are made as functional')}
-            </p>
           </div>
 
           {/* Title Area */}
@@ -69,20 +65,22 @@ const Home = (props) => {
                 {feat.packages.map((pkgId) => {
                   if (!feat.isRatings) {
                     const pkgDetails = props.localData.packages.find(
-                      (x) => x.id == pkgId
+                      (x) => x.id === pkgId
                     );
                     return (
                       <Col key={'home-col' + feat.id + '-' + pkgId}>
                         <EscapadesCard
                           key={'home-card' + feat.id + '-' + pkgId}
                           pkg={pkgDetails}
-                          backgroundColor={BaseColors[pkgDetails.level % 3]}
+                          backgroundColor={
+                            BaseColors[(pkgDetails.level - 1) % 3]
+                          }
                         />
                       </Col>
                     );
                   } else {
                     const pkgArr = props.localData.packages.filter(
-                      (x) => x.category == pkgId
+                      (x) => x.category === pkgId
                     );
                     let sum = 0;
                     pkgArr.forEach((item) => {

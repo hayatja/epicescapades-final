@@ -8,7 +8,7 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
 
   const switchLanguage = () => {
-    i18n.changeLanguage(i18n.language == "en" ? "fr" : "en");
+    i18n.changeLanguage(i18n.language === "en" ? "fr" : "en");
   };
 
   return (
@@ -60,7 +60,7 @@ const Navbar = () => {
           className='language-button ms-2 me-2'
           onClick={() => switchLanguage()}
         >
-          {i18n.language == 'en' ? 'EN' : 'FR'}
+          {i18n.language === 'en' ? 'EN' : 'FR'}
         </div>
         <NavLink
           to='/login'

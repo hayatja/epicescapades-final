@@ -50,7 +50,10 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/plan' element={<Plan cart={localCart} />} />
-          <Route path='/cart' element={<Cart cart={localCart} />} />
+          <Route
+            path='/cart'
+            element={<Cart cart={localCart} localData={localData} />}
+          />
           <Route
             path='/booking-confirmation'
             element={<BookingConfirmation />}
